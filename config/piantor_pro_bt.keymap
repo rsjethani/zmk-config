@@ -27,7 +27,7 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &mt COLON EXCL  &none  &none  &kp A  &kp R  &mt LGUI S  &mt LALT T  &kp G  &kp M  &mt RALT N  &mt RGUI E  &kp I  &kp O  &none  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp SLASH  &none  &kp LGUI  &mo 1  &kp SPACE  &kp RET  &mo 2  &kp RALT
+&none  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &mt COLON EXCL  &none  &none  &kp A  &kp R  &mt LGUI S  &mt LALT T  &kp G  &kp M  &mt RALT N  &mt RGUI E  &kp I  &kp O  &none  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp SLASH  &none  &none  &sk LSHIFT  &kp SPACE  &kp RET  &sk LCTRL  &none
             >;
         };
 
