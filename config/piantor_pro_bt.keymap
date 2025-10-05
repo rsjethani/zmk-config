@@ -66,10 +66,10 @@
             >;
         };
 
-        extra_layer_2 {
-            display-name = "EXTRA 2";
+        system_multimedia_layer {
+            display-name = "SYSTEM";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_NXT  &bt BT_PRV  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &trans  &trans  &bootloader  &to 0  &sys_reset  &bootloader  &to 3  &sys_reset
             >;
         };
     };
