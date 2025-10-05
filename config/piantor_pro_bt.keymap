@@ -17,7 +17,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        base {
             display-name = "BASE";
 
             // --------------------------------------------------------------------------------
@@ -31,8 +31,8 @@
             >;
         };
 
-        lower_layer {
-            display-name = "NUMBER";
+        symbols_numbers {
+            display-name = "SYNUM";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5    |  6  |  7  |  8  |  9  |  0  | BSPC |
@@ -45,7 +45,7 @@
             >;
         };
 
-        raise_layer {
+        navigation {
             display-name = "SYMBOL";
 
             // -----------------------------------------------------------------------------------------
@@ -59,17 +59,10 @@
             >;
         };
 
-        extra_layer_1 {
-            display-name = "EXTRA 1";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        system_multimedia_layer {
+        system_multimedia {
             display-name = "SYSTEM";
             bindings = <
-&trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_NXT  &bt BT_PRV  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &trans  &trans  &bootloader  &to 0  &sys_reset  &bootloader  &to 3  &sys_reset
+&trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_NXT  &bt BT_PRV  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &trans  &trans  &bootloader  &to 0  &sys_reset  &bootloader  &to 2  &sys_reset
             >;
         };
     };
