@@ -18,7 +18,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "BASE";
 
             // --------------------------------------------------------------------------------
             // | NONE |  Q  |  W  |  E  |  R  |  T  |  Y  |  U   |  I  |  O  |  P  | NONE |
