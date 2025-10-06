@@ -19,14 +19,14 @@
         base {
             display-name = "BASE";
             bindings = <
-&caps_word  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &mt QUESTION DOT  &none  &kp TAB  &kp A  &kp R  &mt LGUI S  &mt LALT T  &kp G  &kp M  &mt RALT N  &mt RGUI E  &kp I  &kp O  &kp BACKSPACE  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &mt MINUS COLON  &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt EXCL COMMA  &none  &sk LEFT_SHIFT  &lt 2 ESCAPE  &lt 3 SPACE  &kp RET  &to 1  &sk LEFT_CONTROL
+&caps_word  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &mt QUESTION DOT  &none  &kp TAB  &kp A  &kp R  &mt LGUI S  &mt LALT T  &kp G  &kp M  &mt RALT N  &mt RGUI E  &kp I  &kp O  &kp BACKSPACE  &kp SLASH  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &mt MINUS COLON  &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt EXCL COMMA  &none  &sk LEFT_SHIFT  &lt 2 ESCAPE  &lt 3 SPACE  &kp RET  &to 1  &sk LEFT_CONTROL
             >;
         };
 
         symbols_numbers {
             display-name = "SYNUM";
             bindings = <
-&none  &mt TILDE GRAVE  &kp N1  &kp N2  &kp N3  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp PLUS  &kp N0  &none  &kp TAB  &mt PERCENT SLASH  &kp N4  &kp N5  &kp N6  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp MINUS  &none  &kp BACKSPACE  &none  &none  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL  &kp ASTERISK  &none  &none  &none  &to 0  &none  &none  &to 2  &none
+&none  &mt TILDE GRAVE  &kp N1  &kp N2  &kp N3  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp PLUS  &kp N0  &none  &kp TAB  &mt PERCENT SLASH  &kp N4  &kp N5  &kp N6  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp MINUS  &none  &kp BACKSPACE  &trans  &none  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL  &kp ASTERISK  &none  &none  &none  &to 0  &none  &none  &to 2  &none
             >;
         };
 
