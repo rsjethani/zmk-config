@@ -48,13 +48,6 @@
             >;
         };
 
-        multimedia {
-            display-name = "MEDIA";
-            bindings = <
-&none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &trans  &to 0  &to 4  &trans  &trans  &trans
-            >;
-        };
-
         system {
             display-name = "SYSTEM";
             bindings = <
