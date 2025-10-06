@@ -19,7 +19,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&caps_word  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &mt QUESTION DOT  &none  &kp TAB  &kp A  &kp R  &mt LGUI S  &mt LALT T  &kp G  &kp M  &mt RALT N  &mt RGUI E  &kp I  &kp O  &kp BACKSPACE  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &mt MINUS COLON  &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt EXCL COMMA  &none  &sk LEFT_SHIFT  &lt 2 ESCAPE  &lt 3 SPACE  &kp RET  &to 1  &sk LEFT_CONTROL
+&caps_word  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &none  &kp TAB  &kp A  &kp R  &mt LGUI S  &mt LALT T  &kp G  &kp M  &mt RALT N  &mt RGUI E  &kp I  &kp O  &kp BACKSPACE  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp SINGLE_QUOTE  &none  &sk LEFT_SHIFT  &lt 2 ESCAPE  &lt 3 SPACE  &kp RET  &to 1  &sk LEFT_CONTROL
             >;
         };
 
