@@ -13,6 +13,17 @@
 };
 
 / {
+    behaviors {
+        parenthesis: parenthesis {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PARENTHESIS";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -26,7 +37,7 @@
         symbols_numbers {
             display-name = "SYNUM";
             bindings = <
-&none  &mt AT_SIGN EXCLAMATION  &kp N1  &kp N2  &kp N3  &mt PERCENT ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH  &kp EQUAL  &trans  &none  &none  &mt POUND DOLLAR  &kp N4  &kp N5  &kp N6  &none  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp GRAVE  &kp MINUS  &kp BACKSLASH  &none  &none  &mt CARET AMPS  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &trans  &none  &trans  &to 0  &to 2  &trans  &trans  &trans
+&none  &kp AT_SIGN  &kp N1  &kp N2  &kp N3  &kp EXCL  &kp DOLLAR  &parenthesis  &kp SLASH  &kp EQUAL  &trans  &none  &none  &kp PERCENT  &kp N4  &kp N5  &kp N6  &kp POUND  &kp AMPS  &kp LEFT_BRACKET  &kp GRAVE  &kp MINUS  &kp BACKSLASH  &none  &none  &kp CARET  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp ASTERISK  &kp RIGHT_BRACKET  &trans  &trans  &trans  &none  &trans  &to 0  &to 2  &trans  &trans  &trans
             >;
         };
 
