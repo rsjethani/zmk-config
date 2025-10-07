@@ -13,17 +13,6 @@
 };
 
 / {
-    behaviors {
-        parenthesis: parenthesis {
-            compatible = "zmk,behavior-mod-morph";
-            label = "PARENTHESIS";
-            bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
 
@@ -50,21 +39,21 @@
         base {
             display-name = "BASE";
             bindings = <
-&none  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp H  &kp L  &kp U  &kp Y  &kp SEMICOLON  &none  &kp TAB  &mt LCMD A  &mt LALT R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &mt LALT I  &mt RCMD O  &kp BACKSPACE  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp J  &kp COMMA  &kp DOT  &kp SINGLE_QUOTE  &none  &lt 2 SPACE  &kp ESC  &sk LSHIFT  &sk RCTRL  &to 1  &lt 2 ENTER
+&none  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp H  &kp L  &kp U  &kp Y  &kp COLON  &none  &kp TAB  &mt LCMD A  &mt LALT R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &mt LALT I  &mt RCMD O  &none  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp J  &kp COMMA  &kp DOT  &kp BACKSPACE  &none  &lt 2 SPACE  &kp ESC  &sk LCTRL  &sk RSHFT  &to 1  &lt 2 ENTER
             >;
         };
 
         symbols_numbers {
             display-name = "SYMNUM";
             bindings = <
-&none  &kp AT_SIGN  &kp N1  &kp N2  &kp N3  &kp EXCL  &kp DOLLAR  &parenthesis  &kp SLASH  &kp EQUAL  &trans  &none  &trans  &mt LCMD PERCENT  &mt LALT NUMBER_4  &kp N5  &kp N6  &kp POUND  &kp AMPS  &kp LEFT_BRACKET  &kp GRAVE  &mt LALT MINUS  &mt RCMD BACKSLASH  &trans  &none  &kp CARET  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp ASTERISK  &kp RIGHT_BRACKET  &trans  &trans  &trans  &none  &trans  &trans  &trans  &trans  &to 2  &trans
+&none  &kp RIGHT_BRACKET  &kp N1  &kp N2  &kp N3  &kp LEFT_BRACKET  &kp QUESTION  &kp PLUS  &kp SLASH  &kp MINUS  &kp SEMICOLON  &none  &trans  &mt LCMD RIGHT_BRACE  &mt LALT NUMBER_4  &kp N5  &kp N6  &kp LEFT_BRACE  &kp UNDERSCORE  &kp LESS_THAN  &kp EQUAL  &mt LALT GREATER_THAN  &mt RCMD TILDE  &trans  &none  &kp BACKSLASH  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp PIPE  &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans  &none  &trans  &trans  &trans  &trans  &to 2  &trans
             >;
         };
 
         navigation_multimedia {
             display-name = "NAVMUM";
             bindings = <
-&none  &none  &none  &kp F5  &kp PRINTSCREEN  &kp K_MUTE  &kp LEFT  &kp RIGHT  &kp HOME  &kp END  &none  &none  &trans  &kp LCMD  &kp LALT  &kp F4  &kp C_BRIGHTNESS_DEC  &kp C_VOL_DN  &none  &none  &none  &kp LALT  &kp RCMD  &trans  &none  &none  &none  &kp F1  &kp C_BRI_UP  &kp C_VOL_UP  &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &none  &kp F5  &kp PRINTSCREEN  &kp K_MUTE  &kp LEFT  &kp RIGHT  &kp HOME  &kp END  &none  &none  &trans  &kp LCMD  &kp LALT  &kp F4  &kp C_BRIGHTNESS_DEC  &kp C_VOL_DN  &none  &none  &none  &kp LALT  &kp RCMD  &none  &none  &none  &none  &kp F1  &kp C_BRI_UP  &kp C_VOL_UP  &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &none  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
