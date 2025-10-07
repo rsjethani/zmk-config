@@ -56,7 +56,7 @@
         symbols_numbers {
             display-name = "SYMNUM";
             bindings = <
-&none  &kp AT_SIGN  &kp N1  &kp N2  &kp N3  &kp EXCL  &kp DOLLAR  &parenthesis  &kp SLASH  &kp EQUAL  &trans  &none  &none  &kp PERCENT  &kp N4  &kp N5  &kp N6  &kp POUND  &kp AMPS  &kp LEFT_BRACKET  &kp GRAVE  &kp MINUS  &kp BACKSLASH  &none  &none  &kp CARET  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp ASTERISK  &kp RIGHT_BRACKET  &trans  &trans  &trans  &none  &trans  &trans  &trans  &to 2  &trans  &trans
+&none  &kp AT_SIGN  &kp N1  &kp N2  &kp N3  &kp EXCL  &kp DOLLAR  &parenthesis  &kp SLASH  &kp EQUAL  &trans  &none  &none  &mt LCMD PERCENT  &mt LALT NUMBER_4  &mt LCTRL N5  &mt LSHFT N6  &kp POUND  &kp AMPS  &kp LEFT_BRACKET  &kp GRAVE  &kp MINUS  &kp BACKSLASH  &none  &none  &kp CARET  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp ASTERISK  &kp RIGHT_BRACKET  &trans  &trans  &trans  &none  &trans  &trans  &trans  &to 2  &trans  &trans
             >;
         };
 
