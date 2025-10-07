@@ -24,34 +24,53 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        to_base {
+            bindings = <&to 0>;
+            key-positions = <38 39>;
+        };
+
+        to_system_left {
+            bindings = <&to 3>;
+            key-positions = <38 36>;
+        };
+
+        to_system_right {
+            bindings = <&to 3>;
+            key-positions = <39 41>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         base {
             display-name = "BASE";
             bindings = <
-&none  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp H  &kp L  &kp U  &kp Y  &kp SEMICOLON  &none  &none  &mt LCMD A  &mt LALT R  &mt LCTRL S  &mt LSHIFT T  &kp G  &kp M  &mt RSHIFT N  &mt RCTRL E  &mt LALT I  &mt RCMD O  &none  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp J  &kp COMMA  &kp DOT  &kp SINGLE_QUOTE  &none  &lt 3 TAB  &lt 2 ESCAPE  &to 1  &kp SPACE  &kp ENTER  &kp BACKSPACE
+&none  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp H  &kp L  &kp U  &kp Y  &kp SEMICOLON  &none  &none  &mt LCMD A  &mt LALT R  &mt LCTRL S  &mt LSHIFT T  &kp G  &kp M  &mt RSHIFT N  &mt RCTRL E  &mt LALT I  &mt RCMD O  &none  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp J  &kp COMMA  &kp DOT  &kp SINGLE_QUOTE  &none  &kp TAB  &kp SPACE  &kp ESC  &to 1  &kp ENTER  &kp BACKSPACE
             >;
         };
 
         symbols_numbers {
             display-name = "SYMNUM";
             bindings = <
-&none  &kp AT_SIGN  &kp N1  &kp N2  &kp N3  &kp EXCL  &kp DOLLAR  &parenthesis  &kp SLASH  &kp EQUAL  &trans  &none  &none  &kp PERCENT  &kp N4  &kp N5  &kp N6  &kp POUND  &kp AMPS  &kp LEFT_BRACKET  &kp GRAVE  &kp MINUS  &kp BACKSLASH  &none  &none  &kp CARET  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp ASTERISK  &kp RIGHT_BRACKET  &trans  &trans  &trans  &none  &trans  &to 0  &to 2  &trans  &trans  &trans
+&none  &kp AT_SIGN  &kp N1  &kp N2  &kp N3  &kp EXCL  &kp DOLLAR  &parenthesis  &kp SLASH  &kp EQUAL  &trans  &none  &none  &kp PERCENT  &kp N4  &kp N5  &kp N6  &kp POUND  &kp AMPS  &kp LEFT_BRACKET  &kp GRAVE  &kp MINUS  &kp BACKSLASH  &none  &none  &kp CARET  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp ASTERISK  &kp RIGHT_BRACKET  &trans  &trans  &trans  &none  &trans  &trans  &trans  &to 2  &trans  &trans
             >;
         };
 
         navigation_multimedia {
             display-name = "NAVMUM";
             bindings = <
-&none  &none  &none  &kp F5  &kp PRINTSCREEN  &kp K_MUTE  &kp LEFT  &kp RIGHT  &none  &none  &none  &none  &none  &none  &none  &kp F4  &kp C_BRIGHTNESS_DEC  &kp C_VOL_DN  &kp HOME  &kp END  &kp PAGE_UP  &kp PAGE_DOWN  &none  &none  &none  &none  &none  &kp F1  &kp C_BRI_UP  &kp C_VOL_UP  &kp UP  &kp DOWN  &none  &none  &none  &none  &trans  &to 0  &to 3  &trans  &trans  &trans
+&none  &none  &none  &kp F5  &kp PRINTSCREEN  &kp K_MUTE  &kp LEFT  &kp RIGHT  &none  &none  &none  &none  &none  &none  &none  &kp F4  &kp C_BRIGHTNESS_DEC  &kp C_VOL_DN  &kp HOME  &kp END  &kp PAGE_UP  &kp PAGE_DOWN  &none  &none  &none  &none  &none  &kp F1  &kp C_BRI_UP  &kp C_VOL_UP  &kp UP  &kp DOWN  &none  &none  &none  &none  &trans  &trans  &trans  &to 0  &trans  &trans
             >;
         };
 
         system {
             display-name = "SYSTEM";
             bindings = <
-&none  &bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &bootloader  &none  &none  &sys_reset  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &trans  &trans  &trans  &trans  &sys_reset  &none  &none  &studio_unlock  &bt BT_NXT  &bt BT_PRV  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &studio_unlock  &none  &trans  &to 0  &trans  &trans  &trans  &kp K_SLEEP
+&none  &bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &bootloader  &none  &none  &sys_reset  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &trans  &trans  &trans  &trans  &sys_reset  &none  &none  &studio_unlock  &bt BT_NXT  &bt BT_PRV  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &studio_unlock  &none  &none  &none  &none  &none  &none  &kp K_SLEEP
             >;
         };
     };
