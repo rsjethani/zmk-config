@@ -49,7 +49,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&none  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp H  &kp L  &kp U  &kp Y  &kp SEMICOLON  &none  &none  &mt LCMD A  &mt LALT R  &mt LCTRL S  &mt LSHIFT T  &kp G  &kp M  &mt RSHIFT N  &mt RCTRL E  &mt LALT I  &mt RCMD O  &none  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp J  &kp COMMA  &kp DOT  &kp SINGLE_QUOTE  &none  &kp TAB  &kp SPACE  &kp ESC  &to 1  &kp ENTER  &kp BACKSPACE
+&none  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp H  &kp L  &kp U  &kp Y  &kp SEMICOLON  &none  &none  &mt LCMD A  &mt LALT R  &mt LCTRL S  &mt LSHIFT T  &kp G  &kp M  &mt RSHIFT N  &mt RCTRL E  &mt LALT I  &mt RCMD O  &none  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp J  &kp COMMA  &kp DOT  &kp SINGLE_QUOTE  &none  &kp TAB  &lt 2 SPACE  &kp ESC  &to 1  &lt 2 ENTER  &kp BACKSPACE
             >;
         };
 
