@@ -27,11 +27,6 @@
     combos {
         compatible = "zmk,combos";
 
-        to_base {
-            bindings = <&to 0>;
-            key-positions = <38 39>;
-        };
-
         to_system_left {
             bindings = <&to 3>;
             key-positions = <38 36>;
@@ -41,6 +36,11 @@
             bindings = <&to 3>;
             key-positions = <39 41>;
         };
+
+        to_base {
+            bindings = <&to 0>;
+            key-positions = <37 40>;
+        };
     };
 
     keymap {
@@ -49,21 +49,21 @@
         base {
             display-name = "BASE";
             bindings = <
-&none  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp H  &kp L  &kp U  &kp Y  &kp SEMICOLON  &none  &none  &mt LCMD A  &mt LALT R  &mt LCTRL S  &mt LSHIFT T  &kp G  &kp M  &mt RSHIFT N  &mt RCTRL E  &mt LALT I  &mt RCMD O  &none  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp J  &kp COMMA  &kp DOT  &kp SINGLE_QUOTE  &none  &kp TAB  &lt 2 SPACE  &kp ESC  &to 1  &lt 2 ENTER  &kp BACKSPACE
+&none  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp H  &kp L  &kp U  &kp Y  &kp SEMICOLON  &none  &kp TAB  &mt LCMD A  &mt LALT R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &mt RALT I  &mt RCMD O  &kp BACKSPACE  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp J  &kp COMMA  &kp DOT  &kp SINGLE_QUOTE  &none  &lt 2 SPACE  &kp ESC  &sk LSHIFT  &sk RCTRL  &to 1  &lt 2 ENTER
             >;
         };
 
         symbols_numbers {
             display-name = "SYMNUM";
             bindings = <
-&none  &kp AT_SIGN  &kp N1  &kp N2  &kp N3  &kp EXCL  &kp DOLLAR  &parenthesis  &kp SLASH  &kp EQUAL  &trans  &none  &none  &mt LCMD PERCENT  &mt LALT NUMBER_4  &mt LCTRL N5  &mt LSHFT N6  &kp POUND  &kp AMPS  &kp LEFT_BRACKET  &kp GRAVE  &kp MINUS  &kp BACKSLASH  &none  &none  &kp CARET  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp ASTERISK  &kp RIGHT_BRACKET  &trans  &trans  &trans  &none  &trans  &trans  &trans  &to 2  &trans  &trans
+&none  &kp AT_SIGN  &kp N1  &kp N2  &kp N3  &kp EXCL  &kp DOLLAR  &parenthesis  &kp SLASH  &kp EQUAL  &trans  &none  &trans  &mt LCMD PERCENT  &mt LALT NUMBER_4  &kp N5  &kp N6  &kp POUND  &kp AMPS  &kp LEFT_BRACKET  &kp GRAVE  &mt RALT MINUS  &mt RCMD BACKSLASH  &trans  &none  &kp CARET  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp ASTERISK  &kp RIGHT_BRACKET  &trans  &trans  &trans  &none  &trans  &trans  &trans  &trans  &to 2  &trans
             >;
         };
 
         navigation_multimedia {
             display-name = "NAVMUM";
             bindings = <
-&none  &none  &none  &kp F5  &kp PRINTSCREEN  &kp K_MUTE  &kp LEFT  &kp RIGHT  &kp HOME  &kp END  &none  &none  &none  &none  &none  &kp F4  &kp C_BRIGHTNESS_DEC  &kp C_VOL_DN  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp F1  &kp C_BRI_UP  &kp C_VOL_UP  &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN  &none  &none  &trans  &trans  &trans  &to 0  &trans  &trans
+&none  &none  &none  &kp F5  &kp PRINTSCREEN  &kp K_MUTE  &kp LEFT  &kp RIGHT  &kp HOME  &kp END  &none  &none  &trans  &kp LCMD  &kp LALT  &kp F4  &kp C_BRIGHTNESS_DEC  &kp C_VOL_DN  &none  &none  &none  &kp RALT  &kp RCMD  &trans  &none  &none  &none  &kp F1  &kp C_BRI_UP  &kp C_VOL_UP  &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
