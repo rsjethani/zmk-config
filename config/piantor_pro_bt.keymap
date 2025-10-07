@@ -40,6 +40,7 @@
         to_base {
             bindings = <&to 0>;
             key-positions = <37 40>;
+            timeout-ms = <100>;
         };
     };
 
