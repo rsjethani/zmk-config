@@ -25,12 +25,6 @@
             bindings = <&to 3>;
             key-positions = <39 41>;
         };
-
-        to_base {
-            bindings = <&to 0>;
-            key-positions = <37 40>;
-            timeout-ms = <100>;
-        };
     };
 
     keymap {
@@ -46,7 +40,7 @@
         symbols_numbers {
             display-name = "SYMNUM";
             bindings = <
-&none  &kp RIGHT_BRACKET  &kp N1  &kp N2  &kp N3  &kp LEFT_BRACKET  &kp QUESTION  &kp PLUS  &kp SLASH  &kp MINUS  &kp SEMICOLON  &none  &trans  &mt LCMD RIGHT_BRACE  &mt LALT NUMBER_4  &kp N5  &kp N6  &kp LEFT_BRACE  &kp UNDERSCORE  &kp LESS_THAN  &kp EQUAL  &mt LALT GREATER_THAN  &mt RCMD TILDE  &trans  &none  &kp BACKSLASH  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp PIPE  &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans  &none  &trans  &trans  &trans  &trans  &to 2  &trans
+&none  &kp RIGHT_BRACKET  &kp N1  &kp N2  &kp N3  &kp LEFT_BRACKET  &kp QUESTION  &kp PLUS  &kp SLASH  &kp MINUS  &kp SEMICOLON  &none  &trans  &mt LCMD RIGHT_BRACE  &mt LALT NUMBER_4  &kp N5  &kp N6  &kp LEFT_BRACE  &kp UNDERSCORE  &kp LESS_THAN  &kp EQUAL  &mt LALT GREATER_THAN  &mt RCMD TILDE  &trans  &none  &kp BACKSLASH  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp PIPE  &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans  &none  &trans  &to 0  &trans  &trans  &to 2  &trans
             >;
         };
 
@@ -60,7 +54,7 @@
         system {
             display-name = "SYSTEM";
             bindings = <
-&none  &bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none  &none  &none  &none  &bootloader  &none  &none  &sys_reset  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &none  &none  &none  &none  &sys_reset  &none  &none  &studio_unlock  &bt BT_NXT  &bt BT_PRV  &bt BT_CLR  &bt BT_CLR_ALL  &none  &none  &none  &none  &studio_unlock  &none  &kp K_SLEEP  &none  &none  &none  &none  &none
+&none  &bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none  &none  &none  &none  &bootloader  &none  &none  &sys_reset  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &none  &none  &none  &none  &sys_reset  &none  &none  &studio_unlock  &bt BT_NXT  &bt BT_PRV  &bt BT_CLR  &bt BT_CLR_ALL  &none  &none  &none  &none  &studio_unlock  &none  &kp K_SLEEP  &trans  &none  &none  &none  &none
             >;
         };
     };
