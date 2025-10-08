@@ -27,6 +27,177 @@
         };
     };
 
+    macros {
+        //
+        // Unicode Macros for German Umlauts and Currency Symbols
+        // Linux version using Ctrl+Shift+U method
+        //
+        // German Umlauts - Lowercase
+        // ä - U+00E4
+
+        a_umlaut: a_umlaut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp U>,
+                <&macro_release>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp N0 &kp N0 &kp E &kp N4>,
+                <&macro_tap>,
+                <&kp SPACE>;
+        };
+
+        // ö - U+00F6
+
+        o_umlaut: o_umlaut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp U>,
+                <&macro_release>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp N0 &kp N0 &kp F &kp N6>,
+                <&macro_tap>,
+                <&kp SPACE>;
+        };
+
+        // ü - U+00FC
+
+        u_umlaut: u_umlaut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp U>,
+                <&macro_release>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp N0 &kp N0 &kp F &kp C>,
+                <&macro_tap>,
+                <&kp SPACE>;
+        };
+
+        // ß - U+00DF
+
+        eszett: eszett {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp U>,
+                <&macro_release>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp N0 &kp N0 &kp D &kp F>,
+                <&macro_tap>,
+                <&kp SPACE>;
+        };
+
+        // German Umlauts - Uppercase
+        // Ä - U+00C4
+
+        a_umlaut_upper: a_umlaut_upper {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp U>,
+                <&macro_release>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp N0 &kp N0 &kp C &kp N4>,
+                <&macro_tap>,
+                <&kp SPACE>;
+        };
+
+        // Ö - U+00D6
+
+        o_umlaut_upper: o_umlaut_upper {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp U>,
+                <&macro_release>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp N0 &kp N0 &kp D &kp N6>,
+                <&macro_tap>,
+                <&kp SPACE>;
+        };
+
+        // Ü - U+00DC
+
+        u_umlaut_upper: u_umlaut_upper {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp U>,
+                <&macro_release>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp N0 &kp N0 &kp D &kp C>,
+                <&macro_tap>,
+                <&kp SPACE>;
+        };
+
+        // Currency Symbols
+        // € - U+20AC
+
+        euro: euro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp U>,
+                <&macro_release>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp N2 &kp N0 &kp A &kp C>,
+                <&macro_tap>,
+                <&kp SPACE>;
+        };
+
+        // ₹ - U+20B9
+
+        rupee: rupee {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp U>,
+                <&macro_release>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp N2 &kp N0 &kp B &kp N9>,
+                <&macro_tap>,
+                <&kp SPACE>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -47,7 +218,7 @@
         navigation_multimedia {
             display-name = "NAVMUM";
             bindings = <
-&none  &none  &none  &kp F5  &kp PRINTSCREEN  &kp K_MUTE  &kp LEFT  &kp RIGHT  &kp HOME  &kp END  &none  &none  &trans  &kp LCMD  &kp LALT  &kp F4  &kp C_BRIGHTNESS_DEC  &kp C_VOL_DN  &none  &none  &none  &kp LALT  &kp RCMD  &none  &none  &none  &none  &kp F1  &kp C_BRI_UP  &kp C_VOL_UP  &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &none  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &kp F1  &kp F4  &kp F5  &kp C_BRI_DN  &kp C_BRI_UP  &kp LEFT  &kp RIGHT  &kp HOME  &kp END  &none  &none  &trans  &kp LCMD  &kp LALT  &rupee  &kp C_VOL_DN  &kp C_VOL_UP  &none  &none  &kp PRINTSCREEN  &kp LALT  &kp RCMD  &none  &none  &eszett  &a_umlaut  &o_umlaut  &u_umlaut  &euro  &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &none  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
