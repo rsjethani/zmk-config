@@ -215,14 +215,14 @@
         base {
             display-name = "BASE";
             bindings = <
-&none  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp COLON  &none  &none  &kp A  &mt LCMD R  &mt LALT S  &mt LCTRL T  &kp G  &kp M  &mt RCTRL N  &mt LALT E  &mt RCMD I  &kp O  &none  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp QUESTION  &none  &kp TAB  &lt 2 ESC  &sk LSHFT  &kp SPACE  &lt 1 BACKSPACE  &kp ENTER
+&none  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp COLON  &none  &none  &kp A  &mt LCMD R  &mt LALT S  &mt LCTRL T  &kp G  &kp M  &mt RCTRL N  &mt LALT E  &mt RCMD I  &kp O  &none  &none  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp QUESTION  &none  &kp TAB  &sk LSHFT  &lt 2 ESC  &lt 1 BACKSPACE  &kp SPACE  &kp ENTER
             >;
         };
 
         symbols_numbers {
             display-name = "SYMNUM";
             bindings = <
-&none  &kp RIGHT_BRACKET  &kp N1  &kp N2  &kp N3  &kp LEFT_BRACKET  &kp QUESTION  &kp PLUS  &kp SLASH  &kp MINUS  &kp SEMICOLON  &none  &none  &mt LCMD RIGHT_BRACE  &mt LALT NUMBER_4  &kp N5  &kp N6  &kp LEFT_BRACE  &kp UNDERSCORE  &kp LESS_THAN  &kp EQUAL  &mt LALT GREATER_THAN  &mt RCMD TILDE  &none  &none  &kp BACKSLASH  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp PIPE  &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans  &none  &trans  &to 0  &trans  &trans  &to 2  &trans
+&none  &kp RIGHT_BRACKET  &kp N1  &kp N2  &kp N3  &kp LEFT_BRACKET  &kp UNDER  &kp PLUS  &kp SLASH  &kp MINUS  &kp SEMICOLON  &none  &none  &kp RIGHT_BRACE  &mt LCMD NUMBER_4  &mt LALT N5  &mt LCTRL N6  &kp LEFT_BRACE  &kp PIPE  &mt RCTRL LESS_THAN  &mt LALT EQUAL  &mt RCMD GREATER_THAN  &kp DOUBLE_QUOTES  &none  &none  &kp BACKSLASH  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &euro  &rupee  &kp TILDE  &kp GRAVE  &kp SINGLE_QUOTE  &none  &a_umlaut  &sk LSHFT  &eszett  &none  &o_umlaut  &u_umlaut
             >;
         };
 
