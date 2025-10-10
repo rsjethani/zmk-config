@@ -200,17 +200,6 @@
         };
     };
 
-    behaviors {
-        euro_rupee: euro_rupee {
-            compatible = "zmk,behavior-mod-morph";
-            label = "EURO_RUPEE";
-            bindings = <&euro>, <&rupee>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LGUI|MOD_LALT)>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -231,7 +220,7 @@
         navigation_multimedia {
             display-name = "NAVMUM";
             bindings = <
-&none  &kp F1  &kp F4  &kp F5  &kp C_BRI_DN  &kp C_BRI_UP  &kp LEFT  &kp RIGHT  &kp HOME  &kp END  &none  &none  &trans  &kp LCMD  &kp LALT  &kp K_PLAY_PAUSE  &kp C_VOL_DN  &kp C_VOL_UP  &none  &none  &kp PRINTSCREEN  &kp LALT  &kp RCMD  &none  &none  &eszett  &a_umlaut  &o_umlaut  &u_umlaut  &euro_rupee  &kp UP  &kp DOWN  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &none  &trans  &to 0  &trans  &trans  &trans  &trans
+&none  &kp C_VOL_DN  &kp K_PREV  &kp K_PP  &kp K_NEXT  &kp C_VOL_UP  &kp F5  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &none  &none  &kp C_BRI_DN  &kp LCMD  &kp LALT  &kp LCTRL  &kp C_BRI_UP  &kp F4  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none  &none  &none  &none  &none  &none  &none  &kp F1  &none  &none  &none  &none  &none  &none  &none  &none  &none  &sk LSHFT  &none
             >;
         };
 
