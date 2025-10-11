@@ -220,7 +220,7 @@
         navigation_multimedia {
             display-name = "NAVMUM";
             bindings = <
-&none  &kp C_VOL_DN  &kp K_PREV  &kp K_PP  &kp K_NEXT  &kp C_VOL_UP  &kp F5  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &none  &none  &kp C_BRI_DN  &kp LCMD  &kp LALT  &kp LCTRL  &kp C_BRI_UP  &kp F4  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none  &none  &none  &none  &none  &none  &none  &kp F1  &none  &none  &none  &none  &none  &none  &none  &none  &none  &sk LSHFT  &none
+&none  &kp C_VOL_DN  &kp K_PREV  &kp K_PP  &kp K_NEXT  &kp C_VOL_UP  &kp F5  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &none  &none  &kp C_BRI_DN  &kp LCMD  &kp LALT  &kp LCTRL  &kp C_BRI_UP  &kp F4  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none  &none  &none  &none  &none  &none  &none  &kp F1  &none  &none  &none  &none  &none  &none  &none  &none  &kp DEL  &sk LSHFT  &kp INS
             >;
         };
 
