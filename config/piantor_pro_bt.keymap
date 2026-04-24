@@ -213,7 +213,7 @@
         symbols_numbers {
             display-name = "SYMNUM";
             bindings = <
-&none  &kp RIGHT_BRACKET  &kp N1  &kp N2  &kp N3  &kp LEFT_BRACKET  &kp UNDER  &kp PLUS  &kp SLASH  &kp MINUS  &kp SEMICOLON  &none  &none  &kp RIGHT_BRACE  &mt LCMD NUMBER_4  &mt LALT N5  &mt LCTRL N6  &kp LEFT_BRACE  &kp PIPE  &mt RCTRL LESS_THAN  &mt LALT EQUAL  &mt RCMD GREATER_THAN  &kp DOUBLE_QUOTES  &none  &none  &kp BACKSLASH  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &euro  &rupee  &kp TILDE  &kp GRAVE  &kp SINGLE_QUOTE  &none  &a_umlaut  &sk LSHFT  &eszett  &none  &o_umlaut  &u_umlaut
+&kp SEMICOLON  &kp NUMBER_0  &kp N1  &kp NUMBER_4  &kp NUMBER_7  &kp MINUS  &kp PLUS  &mt RIGHT_BRACKET LEFT_BRACKET  &kp POUND  &kp DOLLAR  &kp CARET  &a_umlaut  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp NUMBER_2  &mt LALT N5  &mt LCTRL NUMBER_8  &kp PERCENT  &kp ASTERISK  &mt RCTRL LESS_THAN  &mt LALT EQUAL  &kp GREATER_THAN  &kp AMPERSAND  &o_umlaut  &kp AT_SIGN  &kp SINGLE_QUOTE  &kp NUMBER_3  &kp NUMBER_6  &kp N9  &mt BACKSLASH SLASH  &kp UNDERSCORE  &mt RIGHT_BRACE LEFT_BRACE  &kp TILDE  &kp GRAVE  &kp PIPE  &u_umlaut  &sk LGUI  &sk LSHFT  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &none  &euro  &rupee
             >;
         };
 
