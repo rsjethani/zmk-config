@@ -206,7 +206,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp COLON  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp PAGE_DOWN  &kp END  &kp TAB  &kp A  &kp R  &mt LALT S  &mt LCTRL T  &kp G  &kp M  &mt RCTRL N  &mt LALT E  &kp I  &kp O  &kp DELETE  &kp QUESTION  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp PAGE_UP  &kp HOME  &sk LSHIFT  &sk LGUI  &lt 2 ESC  &lt 1 BACKSPACE  &kp SPACE  &kp ENTER
+&kp HOME  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp COLON  &kp END  &kp TAB  &kp A  &kp R  &mt LALT S  &mt LCTRL T  &kp G  &kp M  &mt RCTRL N  &mt LALT E  &kp I  &kp O  &kp DELETE  &kp PAGE_UP  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp QUESTION  &kp PAGE_DOWN  &sk LSHIFT  &sk LGUI  &lt 2 ESC  &lt 1 BACKSPACE  &kp SPACE  &kp ENTER
             >;
         };
 
