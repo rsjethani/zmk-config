@@ -213,14 +213,14 @@
         symbols_numbers {
             display-name = "SYMNUM";
             bindings = <
-&kp SEMICOLON  &kp NUMBER_0  &kp N1  &kp NUMBER_4  &kp NUMBER_7  &kp MINUS  &kp PLUS  &mt RIGHT_BRACKET LEFT_BRACKET  &kp POUND  &kp DOLLAR  &kp CARET  &a_umlaut  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp NUMBER_2  &mt LALT N5  &mt LCTRL NUMBER_8  &kp PERCENT  &kp ASTERISK  &mt RCTRL LESS_THAN  &mt LALT EQUAL  &kp GREATER_THAN  &kp AMPERSAND  &o_umlaut  &kp AT_SIGN  &kp SINGLE_QUOTE  &kp NUMBER_3  &kp NUMBER_6  &kp N9  &mt BACKSLASH SLASH  &kp UNDERSCORE  &mt RIGHT_BRACE LEFT_BRACE  &kp TILDE  &kp GRAVE  &kp PIPE  &u_umlaut  &trans  &trans  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &none  &euro  &rupee
+&kp SEMICOLON  &kp NUMBER_0  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &kp PLUS  &mt RIGHT_BRACKET LEFT_BRACKET  &kp POUND  &kp DOLLAR  &kp CARET  &a_umlaut  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp NUMBER_4  &mt LALT N5  &mt LCTRL NUMBER_6  &kp PERCENT  &kp ASTERISK  &mt RCTRL LESS_THAN  &mt LALT EQUAL  &kp GREATER_THAN  &kp AMPERSAND  &o_umlaut  &kp AT_SIGN  &kp SINGLE_QUOTE  &kp NUMBER_7  &kp NUMBER_8  &kp N9  &mt BACKSLASH SLASH  &kp UNDERSCORE  &mt RIGHT_BRACE LEFT_BRACE  &kp TILDE  &kp GRAVE  &kp PIPE  &u_umlaut  &trans  &trans  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &none  &euro  &rupee
             >;
         };
 
         navigation_multimedia {
             display-name = "NAVMUM";
             bindings = <
-&none  &none  &none  &none  &none  &none  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN  &kp C_NEXT  &kp C_BRIGHTNESS_DEC  &kp PRINTSCREEN  &none  &none  &none  &none  &none  &none  &none  &none  &kp K_MUTE  &kp C_PLAY_PAUSE  &none  &none  &none  &none  &none  &none  &none  &none  &kp UP_ARROW  &kp LEFT_ARROW  &kp C_VOLUME_UP  &kp C_PREVIOUS  &kp C_BRIGHTNESS_INC  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &kp F1  &kp F2  &kp F3  &kp F10  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN  &kp C_NEXT  &kp C_BRIGHTNESS_DEC  &kp PRINTSCREEN  &none  &none  &kp F4  &kp F5  &kp F6  &kp F11  &none  &none  &kp K_MUTE  &kp C_PLAY_PAUSE  &none  &none  &none  &none  &kp F7  &kp F8  &kp F9  &kp F12  &kp UP_ARROW  &kp LEFT_ARROW  &kp C_VOLUME_UP  &kp C_PREVIOUS  &kp C_BRIGHTNESS_INC  &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
