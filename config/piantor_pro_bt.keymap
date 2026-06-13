@@ -200,13 +200,23 @@
         };
     };
 
+    behaviors {
+        bkspc_del_ins: bkspc_del_ins {
+            compatible = "zmk,behavior-tap-dance";
+            label = "BKSPC_DEL_INS";
+            #binding-cells = <0>;
+            tapping-term-ms = <175>;
+            bindings = <&kp BACKSPACE>, <&kp DELETE>, <&kp INSERT>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         base {
             display-name = "BASE";
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMI  &kp END  &kp TAB  &kp A  &kp R  &mt LALT S  &mt LCTRL T  &kp G  &kp M  &mt RCTRL N  &mt LALT E  &kp I  &kp O  &kp SINGLE_QUOTE  &kp PAGE_UP  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp SLASH  &kp PAGE_DOWN  &sk LSHIFT  &sk LGUI  &lt 2 HOME  &lt 1 BACKSPACE  &kp SPACE  &kp ENTER
+&kp ESCAPE  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMI  &bkspc_del_ins  &kp TAB  &kp A  &kp R  &mt LALT S  &mt LCTRL T  &kp G  &kp M  &mt RCTRL N  &mt LALT E  &kp I  &kp O  &kp SINGLE_QUOTE  &kp PAGE_UP  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp SLASH  &kp PAGE_DOWN  &sk LSHIFT  &sk LGUI  &lt 2 HOME  &lt 1 END  &kp SPACE  &kp ENTER
             >;
         };
 
