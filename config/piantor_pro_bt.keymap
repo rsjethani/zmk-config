@@ -223,7 +223,7 @@
         symbols_numbers {
             display-name = "SYMNUM";
             bindings = <
-&kp SEMICOLON  &kp NUMBER_0  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp POUND  &kp DOLLAR  &kp CARET  &a_umlaut  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp NUMBER_4  &mt LALT N5  &mt LCTRL NUMBER_6  &kp PERCENT  &kp ASTERISK  &mt RCTRL LESS_THAN  &mt LALT EQUAL  &kp GREATER_THAN  &kp AMPERSAND  &o_umlaut  &kp AT_SIGN  &kp SINGLE_QUOTE  &kp NUMBER_7  &kp NUMBER_8  &kp N9  &mt BACKSLASH SLASH  &kp UP_ARROW  &kp LEFT_ARROW  &kp TILDE  &kp GRAVE  &kp PIPE  &u_umlaut  &trans  &trans  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &none  &euro  &rupee
+&kp SEMICOLON  &kp NUMBER_0  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp POUND  &kp DOLLAR  &kp CARET  &a_umlaut  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp NUMBER_4  &mt LALT N5  &mt LCTRL NUMBER_6  &kp PERCENT  &kp LEFT_BRACKET  &mt RCTRL RIGHT_BRACKET  &mt LALT EQUAL  &kp GREATER_THAN  &kp AMPERSAND  &o_umlaut  &kp AT_SIGN  &kp SINGLE_QUOTE  &kp NUMBER_7  &kp NUMBER_8  &kp N9  &mt BACKSLASH SLASH  &kp UP_ARROW  &kp LEFT_ARROW  &kp TILDE  &kp GRAVE  &kp PIPE  &u_umlaut  &trans  &trans  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &none  &euro  &rupee
             >;
         };
 
